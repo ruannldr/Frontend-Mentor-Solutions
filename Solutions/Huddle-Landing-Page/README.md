@@ -46,7 +46,7 @@ Seus usuários devem ser capazes de:
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Static Badge](https://img.shields.io/badge/Flexbox-white) ![Static Badge](https://img.shields.io/badge/Mobile%20First-white)
 
-### Comentarios pessoais
+### Comentários pessoais
 
 Existiu uma dificuldade gigantesca em relação aos posicionamentos fixos dos elementos.
 
