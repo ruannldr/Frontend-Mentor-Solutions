@@ -5,8 +5,8 @@
 # Huddle landing page with a single introductory section — Frontend Mentor Challenge
 
 <div align="center">
-  <img src="./design/desktop-design.jpg" height="70%">
-  <img src="./design/mobile-design.jpg" height="25%">
+  <img src="./design/desktop-design.jpg" height="300px">
+  <img src="./design/mobile-design.jpg" height="300px">
 </div>
 
 </div>
