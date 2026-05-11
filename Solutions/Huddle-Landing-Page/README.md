@@ -4,6 +4,11 @@
 
 # Huddle landing page with a single introductory section — Desafio Frontend Mentor
 
+<div align="center">
+  <img src="./design/desktop-design.jpg" height="70%">
+  <img src="./design/mobile-design.jpg" height="25%">
+</div>
+
 </div>
 
 ## 📌 Visão geral
@@ -47,12 +52,11 @@ Existiu uma dificuldade gigantesca em relação aos posicionamentos fixos dos el
 
 Uso uma tela de demostração inferior ao tamanho fixo total do projeto, isso se tornou um problema pois em zooms diferentes o elementos se moviam de forma desconexa inves de se mover ou não de maneira inteligente.
 
-Por exemplo o ```.container-action``` alinhado com a altura especifica da imagem. Acredito que usar o ```paddin-top``` não foi uma boa ideia; mas, além da insegurança, não queria utilizar uma númeração fixa com ```px```.
-
+Por exemplo o `.container-action` alinhado com a altura especifica da imagem. Acredito que usar o `paddin-top` não foi uma boa ideia; mas, além da insegurança, não queria utilizar uma númeração fixa com `px`.
 
 ### Próximos passos
 
-Como primeiro projeto eu sentir o que realmente preciso melhorar e focar; e é isso que irei fazer. Irei praticar cada vez mais, principalmente onde sentir mais dificuldade. 
+Como primeiro projeto eu sentir o que realmente preciso melhorar e focar; e é isso que irei fazer. Irei praticar cada vez mais, principalmente onde sentir mais dificuldade.
 
 ---
 
@@ -69,4 +73,3 @@ Como primeiro projeto eu sentir o que realmente preciso melhorar e focar; e é i
 ![Static Badge](https://img.shields.io/badge/made%20whith-%F0%9F%92%99-blue) ![Static Badge](https://img.shields.io/badge/by-ruannldr-blue)
 
 </div>
-
