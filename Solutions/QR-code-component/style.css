@@ -29,9 +29,11 @@ body {
 .card {
   font-family: "Outfit", sans-serif;
   background-color: hsl(0, 0%, 100%);
-  width: 25%;
+  width: 350px;
   padding: 20px;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: crosshair;
 }
 
 .card img {
@@ -75,4 +77,22 @@ footer a {
 footer a:hover {
   color: hsl(218, 44%, 22%);
   transition: 0.5s;
+}
+
+@media (max-width: 480px) {
+  body {
+    height: 100vh;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
 }
