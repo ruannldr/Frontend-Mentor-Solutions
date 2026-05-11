@@ -1,0 +1,10 @@
+DIFICULDADES NESSE PROJETO
+
+
+Existiu uma dificuldade gigantesca em relação aos posicionamentos fixos dos elementos.
+
+Uso uma tela de demostração inferior ao tamanho fixo total do projeto, isso se tornou um problema pois em zooms diferentes o elementos se moviam de forma desconexa inves de se mover ou não de maneira inteligente.
+
+Por exemplo o ".container-action" alinhado com a altura especifica da imagem. Acredito que usar o "paddin-top" não foi uma boa ideia; mas, além da insegurança, não utilizar uma númeração fixa com "px".
+ 
+
