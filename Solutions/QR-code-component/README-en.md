@@ -2,8 +2,13 @@
 
 [![Static Badge](https://img.shields.io/badge/Click%20here%20for%20a%20full%20description%20in-portuguese%20version-pink)](./README.md)
 
-# Huddle landing page with a single introductory section — Frontend Mentor Challenge
+# QR Code Component — Desafio Frontend Mentor
 
+</div>
+
+<div align="center">
+  <img src="./qr-code-component-main/design/desktop-design.jpg" height="500px">
+  <img src="./qr-code-component-main/design/mobile-design.jpg" height="500px">
 </div>
 
 ## 📌 Overview
@@ -18,9 +23,11 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### 📷 Screenshots
 
+---
+
 <div align="center">
-  <img src="./images/desktop-view-demo.gif" height="300px">
-  <img src="./images/mobile-view-demo.gif" height="300px">
+  <img src="./qr-code-component-main/images/desktop-view-demo.png" height="400px">
+  <img src="./qr-code-component-main/images/mobile-view-demo.png" height="400px">
 </div>
 
 ### 🔗 Links
@@ -34,19 +41,15 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Built with
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Static Badge](https://img.shields.io/badge/Flexbox-white) ![Static Badge](https://img.shields.io/badge/Mobile%20First-white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Static Badge](https://img.shields.io/badge/Flexbox-white)
 
 ### Personal comments
 
-There was a huge difficulty regarding the fixed positioning of elements.
-
-I use a display screen smaller than the project’s total fixed size, which became a problem because at different zoom levels the elements would move in a disconnected way instead of moving or not moving intelligently.
-
-For example, the `.container-action` aligned with the specific height of the image. I believe using `padding-top` was not a good idea; but beyond the uncertainty, I didn’t want to use a fixed number with `px`.
+This project was the easiest one in this journey. I learned a lot from it. I still have some difficulty with positioning elements, but I’m getting the hang of it.
 
 ### Next steps
 
-As my first project I felt what I really need to improve and focus on; and that is exactly what I will do. I will practice more and more, especially where I feel the most difficulty.
+I’ll keep working on basic projects for a few more days.
 
 ---
 

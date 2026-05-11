@@ -2,13 +2,13 @@
 
 [![Static Badge](https://img.shields.io/badge/Click%20here%20for%20a%20full%20description%20in-english%20version-pink)](./README-en.md)
 
-# QR code component — Desafio Frontend Mentor
+# QR Code Component — Desafio Frontend Mentor
 
 </div>
 
 <div align="center">
-  <img src="./design/desktop-design.jpg" height="300px">
-  <img src="./design/mobile-design.jpg" height="300px">
+  <img src="./qr-code-component-main/design/desktop-design.jpg" height="500px">
+  <img src="./qr-code-component-main/design/mobile-design.jpg" height="500px">
 </div>
 
 ## 📌 Visão geral
@@ -23,15 +23,17 @@ Você pode usar qualquer ferramenta que quiser para ajudar a completar o desafio
 
 ### 📷 Screenshots
 
+---
+
 <div align="center">
-  <img src="./images/desktop-view-demo.png" height="300px">
-  <img src="./images/mobile-view-demo.png" height="300px">
+  <img src="./qr-code-component-main/images/desktop-view-demo.png" height="400px">
+  <img src="./qr-code-component-main/images/mobile-view-demo.png" height="400px">
 </div>
 
 ### 🔗 Links
 
 - O desafio: [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-- Minha solução: [Demo](#)
+- Minha solução: [Demo](https://ruannldr.github.io/Frontend-Mentor-Solutions/Solutions/QR-code-component/)
 
 ---
 
@@ -39,7 +41,7 @@ Você pode usar qualquer ferramenta que quiser para ajudar a completar o desafio
 
 ### Construído com
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Static Badge](https://img.shields.io/badge/Flexbox-white) 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Static Badge](https://img.shields.io/badge/Flexbox-white)
 
 ### Comentários pessoais
 
