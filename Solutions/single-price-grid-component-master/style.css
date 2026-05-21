@@ -52,6 +52,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 /* LINKS */
@@ -113,7 +115,6 @@ li {
 }
 
 main {
-  min-height: 100vh;
   display: grid;
   place-items: center;
   padding: var(--space-md);
@@ -127,6 +128,7 @@ main {
   background-color: var(--color-white);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-card);
+  overflow: hidden;
 }
 
 /* box 1  */
@@ -147,7 +149,7 @@ main {
 
 .intro p {
   color: var(--color-muted);
-  width: 550px;
+  max-width: 550px;
 }
 
 /* box 2  */
@@ -187,12 +189,14 @@ main {
   text-align: center;
   margin-top: 2rem;
   box-shadow: var(--shadow-card);
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
 }
 
 .price button:hover {
   color: var(--color-accent);
   background-color: var(--color-white);
-  transition: 0.5s;
 }
 
 /* box 3  */
@@ -208,4 +212,72 @@ main {
 .why li {
   font-size: 0.9rem;
   font-weight: 300;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+
+.why li:hover {
+  color: var(--color-accent);
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: var(--space-md) 0;
+}
+
+footer p,
+footer a {
+  color: black;
+  text-decoration: none;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+
+footer a:hover {
+  color: var(--color-primary);
+}
+
+/* mobile view */
+@media (max-width: 480px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .intro {
+    padding: var(--space-xl);
+  }
+
+  .intro h1 {
+    font-size: 1.4rem;
+  }
+
+  .intro h2 {
+    font-size: 1rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+
+  .price {
+    padding: var(--space-xl);
+  }
+
+  .why {
+    padding: var(--space-xl);
+    transition:
+      background-color 0.5s ease,
+      color 0.5s ease;
+  }
+
+  .why li:hover {
+    color: var(--color-accent);
+  }
 }
