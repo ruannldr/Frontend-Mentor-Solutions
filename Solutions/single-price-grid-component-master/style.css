@@ -16,7 +16,6 @@
 
   --color-bg: hsl(204, 43%, 93%);
   --color-muted: hsl(218, 22%, 67%);
-  --color-grey-varian: ;
   --color-white: hsl(0, 0%, 100%);
 
   /* TYPOGRAPHY */
@@ -162,15 +161,12 @@ main {
   display: flex;
   align-items: center;
   gap: var(--space-md);
+  color: var(--color-white);
+  font-weight: 100;
 }
 
 .price h2 {
   margin-bottom: var(--space-md);
-}
-
-.price-value {
-  color: var(--color-white);
-  font-weight: 100;
 }
 
 .price-value span {
@@ -245,7 +241,7 @@ footer a:hover {
 }
 
 /* mobile view */
-@media (max-width: 480px) {
+@media (max-width: 760px) {
   .card {
     grid-template-columns: 1fr;
   }
